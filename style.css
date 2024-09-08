@@ -1,0 +1,41 @@
+css
+body {
+    font-family: Arial, sans-serif,Bold,Italic;
+    background-color: #111110;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #407da5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #524a9b;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #040c06;
+    color: rgb(46, 95, 105);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resume-output {
+    margin-top: 20px;
+}
